@@ -136,7 +136,7 @@ const UserDashboard = ({ drugsFromAdmin = [] }) => {
                             }
                         }}
                     >
-                        Send
+                        Send this
                     </button>
                 </div>
             </div>
