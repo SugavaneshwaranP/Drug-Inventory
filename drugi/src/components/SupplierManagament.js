@@ -35,17 +35,17 @@ const SupplierManagement = () => {
         });
 
         if (!response.ok) {
-            throw new Error("Failed to add supplier");
+            throw new Error("Failed to add ");
         }
 
         const addedSupplier = await response.json();
         setSuppliers([...suppliers, addedSupplier]); // Update UI
         setNewSupplier({ name: "", email: "", phone: "", status: "Active", successRate: 0, deliveryTime: "N/A", rating: 0, totalOrders: 0, pendingPayments: "$0" });
 
-        alert("✅ Supplier added successfully!");
+        alert("✅ Supplier added !");
     } catch (error) {
         console.error("Error adding supplier:", error);
-        alert("❌ Failed to add supplier. Please try again.");
+        alert("❌ Failed to add supplier.Try again!");
     }
 };
 
