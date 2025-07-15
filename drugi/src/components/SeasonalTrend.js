@@ -37,7 +37,7 @@ const SeasonalTrend = () => {
   return (
     <div className="p-6   bg-gray-900  min-h-screen flex flex-col items-center">
       <h2 className="text-3xl font-extrabold text-gray-800 mb-6 shadow-md p-3 rounded-xl bg-white bg-opacity-50">
-        Seasonal Drug Trend Analysis
+        Seasonal Drug Trend
       </h2>
       <div className="bg-white bg-opacity-70 p-6 rounded-xl shadow-xl w-full max-w-md backdrop-blur-md">
         <label className="block mb-2 text-gray-800 font-semibold">Select a Season</label>
