@@ -8,7 +8,7 @@ router.post("/", async (req, res) => {
     const { drugName, stockStatus, numberOfStocks, drugArrivalDate, aiAgeRecommendation } = req.body;
 
     if (!drugName || !stockStatus || !numberOfStocks) {
-      return res.status(400).json({ message: "Missing required fields" });
+      return res.status(400).json({ message: "Missing required field" });
     }
 
     const newStock = new Stock({
