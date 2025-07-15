@@ -25,7 +25,7 @@ const Homepage = () => {
     const data = await response.json();
   
     if (response.ok && data) {
-      alert("Login successful!");
+      alert("Login successful welcome!");
       
       // Redirect based on role
       if (data.role === "admin") {
@@ -70,10 +70,10 @@ const Homepage = () => {
         alert("Signup successful! Please login.");
         setFormData({ fullName: "", email: "", username: "", password: "", role: "user" });
       } else {
-        alert("Signup failed! Please try again.");
+        alert("Signup failed!");
       }
     } catch (error) {
-      alert("An error occurred. Please try again.");
+      alert("An error occurred");
     }
   };
   
@@ -186,8 +186,7 @@ const Homepage = () => {
           href="#login"
           className="mt-8 px-8 py-4 bg-gradient-to-r from-yellow-400 to-yellow-300 text-black text-2xl font-bold rounded-full shadow-lg transition-transform transform hover:scale-110 hover:shadow-2xl"
         >
-          Get Started
-        </a>
+  Let's Go        </a>
       </div>
 
 
