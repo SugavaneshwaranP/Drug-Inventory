@@ -15,7 +15,7 @@ const GenerateReport = () => {
       </nav>
 
       <div className="mt-8 p-6 bg-gray-800 rounded-lg shadow-lg">
-        <h2 className="text-xl font-semibold mb-4">Supplier Performance Report</h2>
+        <h2 className="text-xl font-semibold mb-4">Performance Report</h2>
         {suppliers.length === 0 ? (
           <p>No supplier data available.</p>
         ) : (
