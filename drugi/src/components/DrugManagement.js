@@ -38,7 +38,7 @@ const DrugManagement = () => {
         <div className="flex items-center gap-4">
           <span className="text-sm text-gray-400">Last Updated: {new Date().toLocaleString()}</span>
           <Link to="/admin-dashboard" className="bg-blue-500 px-4 py-2 rounded-lg text-white font-semibold hover:bg-blue-600 transition">
-            🔙 Back to Dashboard
+            🔙 Back Dashboard
           </Link>
         </div>
       </div>
