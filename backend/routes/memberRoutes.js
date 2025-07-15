@@ -9,7 +9,7 @@ router.post("/add", async (req, res) => {
 
     // Validation
     if (!name || !email || !phone) {
-      return res.status(400).json({ error: "All fields are required!" });
+      return res.status(400).json({ error: "All fields required!" });
     }
 
     const newMember = new Member({ name, email, phone, role });
