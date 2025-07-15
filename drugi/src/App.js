@@ -14,7 +14,7 @@ const adminDrugList = [
   { name: "Metoprolol", stock: 45 },
   { name: "Simvastatin", stock: 60 },
   { name: "Levothyroxine", stock: 25 },
-  { name: "Amlodipine", stock: 80 },
+  { name: "Amlodipin1", stock: 80 },
   { name: "Hydrochlorothiazide", stock: 35 },
   { name: "Gabapentin", stock: 50 },
 ];
