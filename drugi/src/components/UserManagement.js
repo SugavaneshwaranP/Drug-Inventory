@@ -41,7 +41,7 @@ const UserManagement = () => {
         fetchUsers(); // Refresh user list
         setNewUser({ name: "", role: "", status: "Active" });
       } else {
-        alert("Failed to add user!");
+        alert("Failed to add !");
       }
     } catch (error) {
       console.error("Error adding user:", error);
