@@ -81,7 +81,7 @@ const Dashboard = () => {
     e.preventDefault();
   
     if (!drugName) {
-      alert("Please enter a drug name");
+      alert("Enter a drug name");
       return;
     }
   
