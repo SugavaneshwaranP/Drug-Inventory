@@ -14,7 +14,7 @@ router.post("/", async (req, res) => {
     const savedDrug = await newDrug.save();
     res.status(201).json(savedDrug);
   } catch (error) {
-    res.status(500).json({ message: "Failed to add drug", error });
+    res.status(500).json({ message: "Failed to add ", error });
   }
 });
 
