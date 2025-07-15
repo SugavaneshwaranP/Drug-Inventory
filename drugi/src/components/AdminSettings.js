@@ -15,7 +15,7 @@ const AdminSettings = () => {
   };
 
   const handleBackup = () => {
-    setBackupStatus("Last backup: " + new Date().toLocaleString());
+    setBackupStatus("backup: " + new Date().toLocaleString());
   };
 
   return (
