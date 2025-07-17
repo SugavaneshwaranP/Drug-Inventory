@@ -11,7 +11,7 @@ const AdminSettings = () => {
   const [backupStatus, setBackupStatus] = useState("No recent backups");
 
   const handleSave = () => {
-    alert("Settings saved successfully!");
+    alert("Settings has been saved successfully!");
   };
 
   const handleBackup = () => {
