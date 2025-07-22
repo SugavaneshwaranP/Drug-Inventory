@@ -45,7 +45,7 @@ const GenerateReport = () => {
       </div>
 
       <div className="mt-8 p-6 bg-gray-800 rounded-lg shadow-lg">
-        <button className="bg-blue-500 p-2 rounded text-white mr-2">Export as CSV</button>
+        <button className="bg-blue-500 p-2 rounded text-white mr-2">Export CSV</button>
         <button className="bg-blue-500 p-2 rounded text-white">Download PDF</button>
       </div>
     </div>
