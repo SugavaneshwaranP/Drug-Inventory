@@ -82,7 +82,7 @@ const Dashboard = () => {
       setAgeRecommendation("");
     } catch (error) {
       console.error("Error adding stock:", error);
-      alert("Error adding stock");
+      alert("Error for adding stock");
     }
   };
 
