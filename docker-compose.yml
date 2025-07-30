@@ -1,6 +1,6 @@
 services:
   backend:
-    build: ./backend
+    image: sugavanesh12/backend:latest
     ports:
       - "5000:5000"
     environment:
@@ -9,7 +9,7 @@ services:
       - mongo
 
   frontend:
-    build: ./drugi             # Updated to point to the 'drugi' folder
+    image: sugavanesh12/drugi:latest
     ports:
       - "3000:3000"
     depends_on:
